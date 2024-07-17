@@ -1,0 +1,43 @@
+Swagger UI:
+http://localhost:9091/swagger-ui/index.html#/user-controller/createUser
+
+
+Add Admin:
+http://localhost:9091/user/auth/signup/admin
+
+{
+    "firstName": "Moderator",
+    "lastName": "Name",
+    "email": "moderator@gmail.com",
+    "password": "moderator@123"
+
+}
+
+*********************************************************************************************************
+
+Modules and Implementation:
+
+User management	Implement User Registration
+	Login Functionality
+	Create API's For User Authentication and Authorisation
+	Develop endpoints for managing user profiles and updating user info
+	
+Post Management	Implement API's for Creating, Updating and Deleting blog posts
+	design end points for blog posts, including pagination and filtering options
+	Develop API's for searching blog posts based on keyword or catogery
+	
+Comment Management	Implement API's for adding Comments to blog posts 
+	retriving comments for a specific blog feedback
+	Create endpoints for Updating and Deleting Comments
+	Implement functionality to handle comment
+	
+	
+Security and Authentication	Implement Security methods such as input validations
+	Implement role based access control to manage permissions for different users
+	
+	
+Database Integration	
+	
+API Documentation and Testing	
+    	Generate API Documentation using Swagger	
+	Write Unit Tests
